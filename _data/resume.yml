@@ -15,11 +15,11 @@ contact: #联系方式连接等3~5行
 - text: "15920899571"
   href: 'tel:15920899571'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
+- text: "http://120.26.43.232/article/article-list/"
+  href: 'http://120.26.43.232/article/article-list/'
   icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
+- text: "YogaTom"
+  href: 'https://github.com/YogaTom'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
