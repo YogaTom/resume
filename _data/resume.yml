@@ -30,36 +30,35 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 华侨大学
+    duration: "2007年9月 - 2011年6月"
+    sub: 本科
+    detail: 电子科学与技术
 
 - type: skills
   # name: "技能"
   content:
-  - title: 编程语言
+  - title: 脚本语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
-
+    - Python
+    - Shell
+  - title: Language
+    - English
+  - title: 运维技能
+    summary: infrastrcture, linux, ansible, kubernetes, 
+             docker, middleware(nginx, redis, lvs etc.)
+             
 - type: experience
   name: 经验
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 北京长远智扬科技有限公司
+    sub: 职位
+    duration: "2016.06-2020.09"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - 存储
+    summary: 售后工程师
+    detail: 日立存储的ISP公司，负责广东省内三大运行商（电信、移动、联通）、各大银行、证券等大中小企业的售后维护、微码升级等工作，
+            根据官网提供的手册（纯英文）和二线提供的方案，在客户IDC现场分析和解决设备问题。
     # open: open
     #可以设置open默认展开
   - title: Job Title
