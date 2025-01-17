@@ -64,33 +64,12 @@ main: #简历主要内容，
     #可以设置open默认展开
   - title: 广州欣茂信息科技有限公司
     sub: 分布式存储运维工程师   
-    duration: 2020.10-2022.07
+    duration: "2020年10月 - 2022年7月"
     tags: 
     - Ceph
     summary: 分布式存储
     detail: 负责广东移动5GC二期项目的浪潮分布式存储运维（在linux系统上运行的ceph系统），日常维护、图形化界面检测，命令行界面检测等；
            保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；参与与移动客户的会议沟通、方案编写和故障案例编写；
-
-  - title: 润建股份有限公司
-    sub:  应用运维工程师
-    duration: 2022.08-2024.03
-    tags: 
-    - docker
-    - kubenetes
-    summary: Java Application
-    detail: 负责南方电网数字企业科技（广东）有限公司财务金融事业部的运维工作，负责两个项目：互联网金融服务V2.0支付中心和金融业务2.0；
-            主要负责支付中心，亦会参与金融业务2.0的日常运维、发版、故障处理、晚班值守等
-            
-    - title: 亿达信息技术有限公司
-    sub:  DevOps
-    duration: 2024.03-至今
-    tags: 
-    - python
-    - shell
-    - ansible
-    - docker
-    summary: Automation
-    detail:
 
 - type: projects
   name: Projects
