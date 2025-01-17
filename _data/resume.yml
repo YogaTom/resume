@@ -54,7 +54,7 @@ main: #简历主要内容，
   content:
   - title: 北京长远智扬科技有限公司
     sub: 售后工程师
-    duration: 2016.06-2020.09
+    duration: "2016年6月 - 2020年9月"
     tags:
     - 存储
     summary: 硬件运维
