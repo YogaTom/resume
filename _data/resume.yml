@@ -43,6 +43,7 @@ main: #简历主要内容，
     - Python
     - Shell
   - title: Language
+    items:
     - English
   - title: 运维技能
     summary: infrastrcture, linux, ansible, kubernetes, 
