@@ -64,7 +64,7 @@ main: #简历主要内容，
     #可以设置open默认展开
   - title: 广州欣茂信息科技有限公司
     sub: 分布式存储运维工程师   
-    duration: 2020.10-2022.07"
+    duration: 2020.10-2022.07
     tags: 
     - Ceph
     summary: 分布式存储
