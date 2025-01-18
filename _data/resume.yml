@@ -69,10 +69,9 @@ main: #简历主要内容，
     - Ceph
     summary: 分布式存储
     detail: 负责广东移动5GC二期项目的浪潮ceph存储运维，日常维护、界面巡检和命令行界面巡检；
-            保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；参与与移动客户的会议沟通、方案编写和故障案例编写；
-            take over the project of China Mobile 5GC Phase II, responsible for the operation and maintenance of the distributed storage system (ceph system running on the linux system), daily maintenance, graphical interface detection, command line interface detection, etc.;
-            Ensure the normal operation of the distributed storage system, replace bad spare parts, load upgrade patches, etc.; participate in meetings, write solutions and fault cases with mobile customers;
-
+            保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；
+            参与与移动客户的会议沟通、方案编写和故障案例编写；
+            
   - title: 润建股份有限公司
     sub: 应用运维工程师
     duration: "2022年8月-2024年3月"
@@ -80,8 +79,8 @@ main: #简历主要内容，
     - docker
     - kubernetes
     summary: Java Application
-    detail: 负责南方电网数字企业科技（广东）有限公司财务金融事业部的运维工作，负责两个项目：互联网金融服务V2.0支付中心和金融业务2.0; 
-            主要负责支付中心，亦会参与金融业务2.0的日常运维、发版、故障处理、晚班值守等
+    detail: 互联网金融服务V2.0支付中心和运营资本域项目的运维工作;
+            日常运维、中间件搭建，故障处理、版本发布、回退、验证服务;
 
   - title: 亿达信息技术有限公司
     sub:  DevOps
@@ -92,14 +91,10 @@ main: #简历主要内容，
     - docker
     - middleware
     summary: Automation
-    detail: dispatch to the customer's site to solve the problem, and write the solution to the problem in the form of a document, 
-            and then submit it to the customer for confirmation. 
-            The main work is to write scripts to automate the operation and maintenance of the customer's system, 
-            and to write the operation and maintenance manual of the customer's system.
-            外派至美的总部办公，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
+    detail: 外派美的，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
             月度应用发版，检测nginx、java应用日志备份情况；   
-            为客户编写自动化脚本，如自动化部署、自动化监控、自动化备份等；目前80—90%的工作都自动化；
-            为客户编写运维手册，如系统基础信息、系统架构、系统监控、系统备份等；
+            编写自动化脚本，如自动化部署、自动化监控、自动化备份等，目前80—90%的工作都自动化；
+            编写运维手册，如系统基础信息、系统架构、系统监控、系统备份等；
 
 - type: projects
   name: Projects
@@ -135,20 +130,24 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '自我介绍'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
+  - title: "工作:"
+    text: "逻辑思维强，熟悉技能项里的基础原理，爱钻研"
+    text: "根据需求，阅读官网英文教程，并在测试环境中运用"
+    text: "从不同渠道提升自我，书籍、博客、论坛、视频，思维广泛"
+    text: "追求工作自动化、脚本化，并不断利用空闲时间优化工作效率"
+
+  - title: "生活:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+    - 下厨
+    - 骑行
+    - 马拉松越野
+    - 阅读人文、传记、历史等书籍
+  # - title: 列表
+  #   list:
+  #   - 第一项
+  #   - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -168,4 +167,3 @@ footer: #脚注多组
 scripts:
 #- src: "assets/js/resume.js"
 #  defer: defer #可以设置defer或者sync异步加载
-
