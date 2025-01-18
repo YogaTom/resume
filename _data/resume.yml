@@ -4,9 +4,7 @@
 title: "resume online"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "唐勇"
-jobtitle: 
-  - "运维工程师" 
-  - "DevOps" #可空不显示
+jobtitle: "运维工程师 DevOps" #可空不显示
 photo: "assets/img/avatar.png" #照片可空，不显示
 
 #联系方式
