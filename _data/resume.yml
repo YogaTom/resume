@@ -47,7 +47,7 @@ main: #简历主要内容，
     - English
   - title: 运维技能
     summary: infrastrcture, linux, ansible, kubernetes, 
-             docker, middleware(nginx, redis, lvs etc.)
+             docker, middleware(nginx, redis, lvs, etc.)
              
 - type: experience
   name: 经验
@@ -58,8 +58,8 @@ main: #简历主要内容，
     tags:
     - 存储
     summary: 硬件运维
-    detail: 日立存储的ISP公司，负责广东省内三大运行商（电信、移动、联通）、各大银行、证券等大中小企业的售后维护、微码升级等工作，
-            根据官网提供的手册（纯英文）和二线提供的方案，在客户IDC现场分析和解决设备问题。
+    detail: 日立存储的ISP公司，负责广东省内三大运行商（电信、移动、联通）、各大银行、证券等大中小企业的售后维护、微码升级等工作；
+            根据官网提供的手册（纯英文），在客户IDC现场分析和解决设备问题，如磁盘故障、控制器故障、电源故障等；
     # open: open
     #可以设置open默认展开
   - title: 广州欣茂信息科技有限公司
@@ -68,14 +68,17 @@ main: #简历主要内容，
     tags: 
     - Ceph
     summary: 分布式存储
-    detail: 负责广东移动5GC二期项目的浪潮分布式存储运维（在linux系统上运行的ceph系统），日常维护、图形化界面检测，命令行界面检测等；
-           保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；参与与移动客户的会议沟通、方案编写和故障案例编写；  
+    detail: 负责广东移动5GC二期项目的浪潮ceph存储运维，日常维护、界面巡检和命令行界面巡检；
+            保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；参与与移动客户的会议沟通、方案编写和故障案例编写；
+            take over the project of China Mobile 5GC Phase II, responsible for the operation and maintenance of the distributed storage system (ceph system running on the linux system), daily maintenance, graphical interface detection, command line interface detection, etc.;
+            Ensure the normal operation of the distributed storage system, replace bad spare parts, load upgrade patches, etc.; participate in meetings, write solutions and fault cases with mobile customers;
 
   - title: 润建股份有限公司
     sub: 应用运维工程师
     duration: "2022年8月-2024年3月"
     tags: 
     - docker
+    - kubernetes
     summary: Java Application
     detail: 负责南方电网数字企业科技（广东）有限公司财务金融事业部的运维工作，负责两个项目：互联网金融服务V2.0支付中心和金融业务2.0; 
             主要负责支付中心，亦会参与金融业务2.0的日常运维、发版、故障处理、晚班值守等
@@ -85,27 +88,49 @@ main: #简历主要内容，
     duration: "2024年3月-至今"
     tags: 
     - python
+    - shell
+    - docker
+    - middleware
     summary: Automation
-    detail: 外派至美的总部办公，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
+    detail: dispatch to the customer's site to solve the problem, and write the solution to the problem in the form of a document, 
+            and then submit it to the customer for confirmation. 
+            The main work is to write scripts to automate the operation and maintenance of the customer's system, 
+            and to write the operation and maintenance manual of the customer's system.
+            外派至美的总部办公，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
             月度应用发版，检测nginx、java应用日志备份情况；   
             为客户编写自动化脚本，如自动化部署、自动化监控、自动化备份等；目前80—90%的工作都自动化；
             为客户编写运维手册，如系统基础信息、系统架构、系统监控、系统备份等；
-            
+
 - type: projects
   name: Projects
   content:
-  - title: 移动NFV二期项目
+  - title: 省移动NFV二期项目
     duration: 
-    detail: 广州移动省公司NFV项目的分布式存储硬集、软集和验收，测试过程包含单硬盘故障、单节点故障、单机柜故障，三种故障类型中收集数据健康、副本数量恢复、数据量恢复时长等参数并演示和记录；
-            项目涉及500台左右的服务器存储节点，基于ceph搭建完成，由中兴的TECS和华为的Esight的VIM和PIM接管，对上层的虚拟机提供存储服务；学习了集成商和厂商的合作模式，移动方的管理模式；亦熟悉了NFV的机制。
-            故障问题闭环和系统升级：日常管理界面巡查和机房巡查，根据错误告警进行修复，如磁盘、电源、主板等硬件修复，底层副本数据不同步修复等；查询系统日志，根据错误日志信息整理成文本提交给客户做备案；周期性的系统升级，修复一些已知bug。
-    sub: 
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+    detail: 分布式存储硬集、软集和验收，单盘故障、单节点故障、单机柜故障，收集三种故障影响和恢复时长；
+            项目涉及500多台基于ceph存储节点，应用层对接中兴和华为服务，与厂商的工程师一起进行硬件集、软件集、验收；
+	          界面巡检和机房巡查，磁盘、电源、主板等硬件修复，底层副本数据不同步修复；
+            周期性的系统升级，修复已知bug，提升系统稳定性和性能；
+  
+  - title: 互联网金融服务V2.0--支付中心二期项目
+    duration: 
+    detail: 重新启动的项目，涉及虚拟机密码重置、账号新建，台账更新维护、各服务运行状态、可用性、安全性；
+            月度发版、排查故障、修复漏洞、验证服务等；
+            编写版本发布和回退方案，并在南方ios平台申请作业，版本发布完成后，验证服务启动和业务正常。
+   
+  - title: 运营资本域项目
+    duration: 
+    detail: 服务器申请，资源验证，防火墙策略变更；
+            dokerfile编写，tsf平台实例创建，打包和发布；
+            搭建和配置nginx，验证前端页面跳转和显示正常；
+            容器镜像备份，镜像脚本维护；
+
+  - title: 美的金融科技
+    duration: 
+    detail: 测试环境资源规划，编写DMZ和IDC区域流程图；
+            中间件安装，keepalived + lvs + nginx 高可用、redis cluster、rocketmq、zookeeper、elasticsearch ；
+            编写运维手册，部署手册；
+            编写python、shell自动化脚本；
+                       
 
 #others 其他简略内容(列表)
 others: #其他列表显示
@@ -143,3 +168,4 @@ footer: #脚注多组
 scripts:
 #- src: "assets/js/resume.js"
 #  defer: defer #可以设置defer或者sync异步加载
+
