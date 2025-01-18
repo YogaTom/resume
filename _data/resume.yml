@@ -161,7 +161,7 @@ footer: #脚注多组
   screen:
   # - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by TOM"
+  - text: "Made &hearts; by TOM"
     href: "https://yogatom.github.io/resume/"
 
 #页面额外js脚本，如xx统计
