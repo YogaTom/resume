@@ -1,10 +1,12 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "resume"
+title: "resume online"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "唐勇"
-jobtitle: "运维工程师" #可空不显示
+jobtitle: 
+  - "运维工程师" 
+  - "DevOps" #可空不显示
 photo: "assets/img/avatar.png" #照片可空，不显示
 
 #联系方式
@@ -86,7 +88,10 @@ main: #简历主要内容，
     tags: 
     - python
     summary: Automation
-    detail:
+    detail: 外派至美的总部办公，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
+            月度应用发版，检测nginx、java应用日志备份情况；   
+            为客户编写自动化脚本，如自动化部署、自动化监控、自动化备份等；目前80—90%的工作都自动化；
+            为客户编写运维手册，如系统基础信息、系统架构、系统监控、系统备份等；
             
 - type: projects
   name: Projects
