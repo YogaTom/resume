@@ -46,8 +46,11 @@ main: #简历主要内容，
     items:
     - English
   - title: 运维技能
-    summary: infrastrcture, linux, ansible, kubernetes, 
-             docker, middleware(nginx, redis, lvs, etc.)
+    items:
+    - infrastrcture, linuxOS
+    - ansible, docker,kubernetes
+    - middleware(nginx, redis, lvs, etc.)
+    - CICD,私有云
              
 - type: experience
   name: 经验
