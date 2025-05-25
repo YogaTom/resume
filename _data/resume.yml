@@ -130,7 +130,7 @@ main: #简历主要内容，
             中间件搭建并压力测试，keepalived + lvs + nginx 高可用、redis cluster、rocketmq、zookeeper、elasticsearch ；
             编写运维手册，部署手册；
             编写python、shell自动化脚本；
-    list: “成果”
+    list:
     - 优化应用日志转存脚本，自动处理变动的应用名，且自动识别未转存的历史遗留日志，防止丢失，
     - 编写python脚本，自动收集指定目录里的信息，如logs文件，方便确认应用是否在输出日志
     - python脚本自动化收集各系统节点的各环境版本，系统，中间件，jdk等，并输出为表格，按需升级
