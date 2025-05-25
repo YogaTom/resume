@@ -53,7 +53,7 @@ main: #简历主要内容，
     - CICD,私有云
              
 - type: experience
-  name: 经验
+  # name: 经验
   content:
   - title: 北京长远智扬科技有限公司
     sub: 售后工程师
@@ -94,10 +94,12 @@ main: #简历主要内容，
     - docker
     - middleware
     summary: Automation
-    detail: 外派美的，收集、发现和解决问题，如linux系统基础信息、磁盘容量、进程状态、网络状态等；
+    detail: shell脚本日常巡检，加上prometheus监控，确保各系统正常运行
+	    python脚本收集系统信息，输出为表格，方便统一升级优化
             月度应用发版，检测nginx、java应用日志备份情况；   
             编写自动化脚本，如自动化部署、自动化监控、自动化备份等，目前80—90%的工作都自动化；
             编写运维手册，如系统基础信息、系统架构、系统监控、系统备份等；
+	    搭建基础环境，如kubernetes、docker、各类中间件等，并进行压力测试，和报告输出
 
 - type: projects
   name: Projects
@@ -125,14 +127,23 @@ main: #简历主要内容，
   - title: 美的金融科技
     duration: 
     detail: 测试环境资源规划，编写DMZ和IDC区域流程图；
-            中间件安装，keepalived + lvs + nginx 高可用、redis cluster、rocketmq、zookeeper、elasticsearch ；
+            中间件搭建并压力测试，keepalived + lvs + nginx 高可用、redis cluster、rocketmq、zookeeper、elasticsearch ；
             编写运维手册，部署手册；
             编写python、shell自动化脚本；
+    list: “成果”
+    - 优化应用日志转存脚本，自动处理变动的应用名，且自动识别未转存的历史遗留日志，防止丢失，
+    - 编写python脚本，自动收集指定目录里的信息，如logs文件，方便确认应用是否在输出日志
+    - python脚本自动化收集各系统节点的各环境版本，系统，中间件，jdk等，并输出为表格，按需升级
+    - shell脚本和prometheus互补，检测系统隐患，基础环境运行良好
+    - 提供容器镜像自动化清除脚本，保留最近三副本，既节省容量，又减少网络波动，仓库拉取镜像导致的失败
+    - 将安排的任务或者已有的任务自动化和优化，较少人为失误；也较少应用发版时间和开发同事的等待时间
+    - 协助开发进行容器、私有云等排错，减少跨部门之间沟通的时间成本
+
               
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '自我介绍'
+  name: 'self-introduction'
   content: #选择需要的格式
   - title: "工作"
     list: 
