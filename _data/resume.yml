@@ -28,7 +28,7 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 学  历 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 华侨大学
     duration: "2007年9月 - 2011年6月"
@@ -53,7 +53,7 @@ main: #简历主要内容，
     - CICD,私有云
              
 - type: experience
-  name: 工作经验
+  name: 工作经历
   content:
   - title: 北京长远智扬科技有限公司
     sub: 售后工程师
@@ -137,7 +137,7 @@ others: #其他列表显示
   name: '自我简介'
   content: #选择需要的格式
 
-  - title: "工作成果"
+  - title: "近期工作成果"
     list:
     - 优化应用日志转存脚本，自动处理变动的应用名，且自动识别未转存的历史遗留日志，防止丢失，
     - 编写python脚本，自动收集指定目录里的信息，如logs文件，方便确认应用是否在输出日志
