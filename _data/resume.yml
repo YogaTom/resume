@@ -36,6 +36,24 @@ main: #简历主要内容，
     detail: 电子科学与技术
 
 - type: skills
+  name: 技能清单
+  content: 
+    - title: 编程语言 
+      items: [Python, Shell]   #itmems 可以小块的方式显示
+    - title: DevOps 工具
+      items: [Ansible, Jenkins, GitLab CI]
+    - title: 容器与编排
+      items: [Docker, Kubernetes, Helm]
+    - title: 中间件与存储
+      items: [Nginx, Redis, LVS, Ceph, Zookeeper, RocketMQ, Elasticsearch]
+    - title: 自动化监控
+      items: [Prometheus, Grafana, ELK]
+    - title: 操作系统与基础设施
+      items: [Linux, 网络基础, 私有云部署]
+    - title: 语言
+      items: [English]
+
+- type: skills
   # name: "技能"
   content:
   - title: 脚本语言
