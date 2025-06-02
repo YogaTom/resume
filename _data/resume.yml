@@ -212,7 +212,7 @@ scripts:
 
   - title: "特别说明"
     list: #单行列表
-    - Blog的域名还在备案中，暂时只能用IP登陆
+    - Blog的域名还在备案中, 暂时只能用IP登陆和查看
  
 
   # - title: 列表
