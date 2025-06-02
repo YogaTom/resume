@@ -63,7 +63,6 @@ main: #简历主要内容，
     tags: [Python, Shell, Docker, Kubernetes] 
     summary: 自动化运维与平台建设
     detail:
-      list:
       - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失。
       - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估。
       - 构建 Shell 巡检脚本并集成 Prometheus 监控体系，提升系统运行稳定性，和减少告警率。
