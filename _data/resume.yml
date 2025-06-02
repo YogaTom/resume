@@ -1,142 +1,190 @@
-title: resume optimized
-lang: zh
-name: 唐勇
-jobtitle: 运维工程师 / DevOps
+# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
+# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
+
+title: "resume online"
+lang: "zh" #语言设置 zh表示中文 en 表示英语
+name: "唐勇"
+jobtitle: "运维工程师 DevOps" #可空不显示
 photo: "assets/img/avatar.png" #照片可空，不显示
 
-contact:
-  - text: yogatom@163.com
-    href: mailto:yogatom@163.com
-    icon: icons/email.svg
-  - text: 15920899571
-    href: tel:15920899571
-    icon: icons/phone.svg
-  - text: http://8.138.221.221/DevOps/article-list/
-    href: http://8.138.221.221/DevOps/article-list/
-    icon: icons/web.svg
-  - text: YogaTom
-    href: https://github.com/YogaTom
-    icon: icons/github.svg
-    attr: target="_blank"
+#联系方式
+contact: #联系方式连接等3~5行
+- text: "yogatom@163.com" #文本内容
+  href: 'mailto:yogatom@163.com' #链接，无链接则空  
+  icon: 'icons/email.svg' #图标 svg文件
+- text: "15920899571"
+  href: 'tel:15920899571'
+  icon: 'icons/phone.svg'
+- text: "http://8.138.221.221/DevOps/article-list/"
+  href: 'http://8.138.221.221/DevOps/article-list/'
+  icon: 'icons/web.svg'
+- text: "YogaTom"
+  href: 'https://github.com/YogaTom'
+  icon: "icons/github.svg"
+  attr: 'target="_blank"' #新标签页打开
+  # - text: "地址"
+  #   icon: "icons/location.svg"
 
-main:
-  - type: skills
-    name: 技能清单
-    content:
-      - title: 编程语言
-        items: [Python, Shell]
-      - title: DevOps 工具
-        items: [Ansible, Jenkins, GitLab CI]
-      - title: 容器与编排
-        items: [Docker, Kubernetes, Helm]
-      - title: 中间件与存储
-        items: [Nginx, Redis, LVS, Ceph, Zookeeper, RocketMQ, Elasticsearch]
-      - title: 自动化监控
-        items: [Prometheus, Grafana, ELK]
-      - title: 操作系统与基础设施
-        items: [Linux, 网络基础, 私有云部署]
-      - title: 语言
-        items: [English]
+#main下面是主体内容，类别条数不限
+main: #简历主要内容，
+- type: education #类别为ID
+  name: 学  历 #显示名称，空则使用type
+  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
+  - title: 华侨大学
+    duration: "2007年9月 - 2011年6月"
+    sub: 本科
+    detail: 电子科学与技术
 
-  - type: education
-    name: 学历
-    content:
-      - title: 华侨大学
-        sub: 本科 / 电子科学与技术
-        duration: 2007年9月 - 2011年6月
+- type: skills
+  name: 技能清单
+  # name: "技能"
+  content: 
+    - title: 编程语言 
+      items: [Python, Shell]   #itmems 可以小块的方式显示
+    - title: DevOps 工具
+      items: [Ansible, Jenkins, GitLab CI]
+    - title: 容器与编排
+      items: [Docker, Kubernetes, Helm]
+    - title: 中间件与存储
+      items: [Nginx, Redis, LVS, Ceph, Zookeeper, RocketMQ, Elasticsearch]
+    - title: 自动化监控
+      items: [Prometheus, Grafana, ELK]
+    - title: 操作系统与基础设施
+      items: [Linux, 网络基础, 私有云部署]
+    - title: 语言
+      items: [English]
 
-  - type: experience
-    name: 工作经历
-    content:
-    - title: 亿达信息技术有限公司
-      sub: DevOps 工程师
-      duration: 2024年3月 - 至今
-      tags: [Python, Shell, Docker, Kubernetes]
-      summary: 自动化运维与平台建设
-      deatil:
-        - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失。
-        - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估。
-        - 构建 Shell 巡检脚本并集成 Prometheus 监控体系，提升系统运行稳定性，和减少告警率。
-        - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力。
-        - 推动任务自动化与流程标准化，减少人为失误和等待时间。
+- type: experience
+  name: 工作经历
+  content:
+  - title: 亿达信息技术有限公司
+    sub: DevOps 工程师
+    duration: 2024年3月 - 至今
+    tags: [Python, Shell, Docker, Kubernetes] 
+    summary: 自动化运维与平台建设
+    detail:
+      - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失。
+      - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估。
+      - 构建 Shell 巡检脚本并集成 Prometheus 监控体系，提升系统运行稳定性，和减少告警率。
+      - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力。
+      - 推动任务自动化与流程标准化，减少人为失误和等待时间。
 
-    - title: 润建股份有限公司
-      sub: 应用运维工程师
-      duration: 2022年8月 - 2024年3月
-      tags: [Docker, Kubernetes, Java App]
-      summary: 应用平台日常运维与发布保障
-      detail:
-        - 负责运营资本域与支付中心项目的环境部署与版本发布。
-        - 搭建中间件服务，处理服务异常与容器发布故障。
-        - 编写回滚方案并在平台上申请作业任务，确保服务稳定上线。
+  - title: 润建股份有限公司
+    sub: 应用运维工程师
+    duration: 2022年8月 - 2024年3月
+    tags: [Docker, Kubernetes, Java App]
+    summary: 应用平台日常运维与发布保障
+    detail:
+      - 负责运营资本域与支付中心项目的环境部署与版本发布。
+      - 搭建中间件服务，处理服务异常与容器发布故障。
+      - 编写回滚方案并在平台上申请作业任务，确保服务稳定上线。
 
-    - title: 广州欣茂信息科技有限公司
-      sub: 分布式存储运维工程师
-      duration: 2020年10月 - 2022年7月
-      tags: [Ceph, 存储]
-      summary: 分布式存储系统运维与故障处理
-      detail:
-        - 负责广东移动5GC二期浪潮 Ceph 存储维护，管理 500+ 节点。
-        - 完成系统巡检、备件更换、补丁升级与数据同步修复。
-        - 编写案例文档与技术方案，协助与客户沟通推进交付。
+  - title: 广州欣茂信息科技有限公司
+    sub: 分布式存储运维工程师   
+    duration: "2020年10月 - 2022年7月"
+    tags: 
+    - Ceph
+    summary: 分布式存储
+    detail: 负责广东移动5GC二期项目的浪潮ceph存储运维，日常维护、界面巡检和命令行界面巡检；
+            保障分布式存储系统的正常运行，更换坏的备件，加载升级补丁等；
+            参与与移动客户的会议沟通、方案编写和故障案例编写；
 
-    - title: 北京长远智扬科技有限公司
-      sub: 售后工程师
-      duration: 2016年6月 - 2020年9月
-      tags: [存储]
-      summary: 存储硬件运维与现场支持
-      detail:
-        - 广东电信、移动、银行等客户数据中心存储设备运维。
-        - 各类存储系统的微码升级。
-        - 常见故障包括磁盘、电源、控制器等各类硬件修复。
+- type: experience
+  name: 工作经历
+  content:
+  - title: 北京长远智扬科技有限公司
+    sub: 售后工程师
+    duration: "2016年6月 - 2020年9月"
+    tags:
+    - 存储
+    summary: 硬件运维
+    detail: 日立存储的ISP公司，负责广东省内三大运行商（电信、移动、联通）、各大银行、证券等大中小企业的售后维护、微码升级等工作；
+            根据官网提供的手册（纯英文），在客户IDC现场分析和解决设备问题，如磁盘故障、控制器故障、电源故障等；
+    # open: open
+    #可以设置open默认展开
+    
+  
 
-  - type: projects
-    name: 项目经验
-    content:
-    - title: 省移动 NFV 二期项目
-      detail:
-        - 管理500+ Ceph 节点存储集群，执行硬件与软件验收、故障恢复测试；
-        - 与华为、中兴、移动工程师协作完成集群一致性验证与故障修复；
-        - 升级系统并编写修复报告，优化平台稳定性。
+- type: projects
+  name: Projects
+  content:
+  - title: 省移动NFV二期项目
+    duration: 
+    detail: 分布式存储硬集、软集和验收，单盘故障、单节点故障、单机柜故障，收集三种故障影响和恢复时长；
+            项目涉及500多台基于ceph存储节点，应用层对接中兴和华为服务，与厂商的工程师一起进行硬件集、软件集、验收；
+            界面巡检和机房巡查，磁盘、电源、主板等硬件修复，底层副本数据不同步修复；
+            周期性的系统升级，修复已知bug，提升系统稳定性和性能；
+  
+  - title: 互联网金融服务V2.0--支付中心二期项目
+    duration: 
+    detail: 重新启动的项目，涉及虚拟机密码重置、账号新建，台账更新维护、各服务运行状态、可用性、安全性；
+            月度发版、排查故障、修复漏洞、验证服务等；
+            编写版本发布和回退方案，并在南方ios平台申请作业，版本发布完成后，验证服务启动和业务正常。
+   
+  - title: 运营资本域项目
+    duration: 
+    detail: 服务器申请，资源验证，防火墙策略变更；
+            dokerfile编写，tsf平台实例创建，打包和发布；
+            搭建和配置nginx，验证前端页面跳转和显示正常；
+            容器镜像备份，镜像脚本维护；
 
-    - title: 互联网金融服务V2.0 - 支付中心二期
-      detail: 
-        - 管理虚拟机用户与密码，编写发版与回滚方案；
-        - 处理平台漏洞与异常，完成发版验证流程。
+  - title: 美的金融科技
+    duration: 
+    detail: 测试环境资源规划，编写DMZ和IDC区域流程图；
+            中间件搭建并压力测试，keepalived + lvs + nginx 高可用、redis cluster、rocketmq、zookeeper、elasticsearch ；
+            编写运维手册，部署手册；
+            编写python、shell自动化脚本；
 
-    - title: 运营资本域项目
-      detail: 
-        - 编写 Dockerfile 并通过 TSF 平台发布容器服务；
-        - 验证 Nginx 跳转与前端加载，配置防火墙策略；
-        - 维护容器镜像备份与版本脚本。
+              
+#others 其他简略内容(列表)
+- type: others #ID可以为空
+  name: '自我简介'
+  content: #选择需要的格式
 
-    - title: 美的金融科技平台
-      detail: 
-        - 搭建测试环境与中间件系统(Redis Cluster, LVS, Zookeeper);
-        - 编写高可用配置并完成压力测试；
-        - 输出部署与运维手册，提升平台交付效率。
+  - title: "近期工作成果"
+    list:
+    - 优化应用日志转存脚本，自动处理变动的应用名，且自动识别未转存的历史遗留日志，防止丢失，
+    - 编写python脚本，自动收集指定目录里的信息，如logs文件，方便确认应用是否在输出日志
+    - python脚本自动化收集各系统节点的各环境版本，系统，中间件，jdk等，并输出为表格，按需升级
+    - shell脚本和prometheus互补，检测系统隐患，基础环境运行良好
+    - 提供容器镜像自动化清除脚本，保留最近三副本，既节省容量，又减少网络波动，仓库拉取镜像导致的失败
+    - 将安排的任务或者已有的任务自动化和优化，较少人为失误；也较少应用发版时间和开发同事的等待时间
+    - 协助开发进行容器、私有云等排错，减少跨部门之间沟通的时间成本
+    
+  - title: "工作思维"
+    list: 
+    - 逻辑思维强，熟悉技能项里的基础原理，爱钻研
+    - 根据需求，阅读官网英文教程，并在测试环境中运用
+    - 接触多渠道提升自我，书籍、博客、论坛、视频，思维广泛
+    - 追求工作自动化、脚本化，并不断利用空闲时间优化工作效率
 
-  - type: others
-    name: 自我简介
-    content:
-    - title: 近期工作成果
-      list:
-      - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失;
-      - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估;
-      - 搭建 Prometheus + Shell 自动检测系统，确保运行状态健康;
-      - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力;
-      - 推动任务自动化与流程标准化，减少人为失误和等待时间;
-      - 搭建新项目所需测试环境，如docker、kubernetes、redis集群和lvs等中间件，并进行压力测试和报告输出
-    - title: 工作思维
-      list:
-      - 逻辑严谨，熟悉系统与中间件原理，善于深入底层分析。
-      - 英文阅读能力强，能快速理解官方文档并实施。
-      - 善用多种渠道（博客、论坛、书籍）快速学习提升。
-      - 重视自动化、脚本化运维体系建设，持续优化流程效率。
-    - title: 兴趣爱好
-      list: [烹饪, 骑行, 马拉松越野, 阅读（人文、传记、历史）]
+  - title: "日常生活"
+    list: #单行列表
+    - 烹饪
+    - 骑行
+    - 马拉松越野
+    - 书籍:人文、传记、历史
 
-footer:
+  # - title: 列表
+  #   list:
+  #   - 第一项
+  #   - 第二项
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
   screen:
-    - text: Made with ♥ by TOM
-      href: https://yogatom.github.io/resume/
+  # - text: "简历脚注"
+  #   href: '/'
+  - text: "Made with &hearts; by TOM"
+    href: "https://yogatom.github.io/resume/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
