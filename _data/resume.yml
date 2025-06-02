@@ -54,6 +54,34 @@ main: #简历主要内容，
     - title: 语言
       items: [English]
 
+
+- type: projects
+  name: Projects
+  content:
+    - title: 省移动 NFV 二期项目
+      detail:
+        - 管理500+ Ceph 节点存储集群，执行硬件与软件验收、故障恢复测试；
+        - 与华为、中兴、移动工程师协作完成集群一致性验证与故障修复；
+        - 升级系统并编写修复报告，优化平台稳定性。
+
+    - title: 互联网金融服务V2.0 - 支付中心二期
+      detail: 
+        - 管理虚拟机用户与密码，编写发版与回滚方案；
+        - 处理平台漏洞与异常，完成发版验证流程。
+
+    - title: 运营资本域项目
+      detail: 
+        - 编写 Dockerfile 并通过 TSF 平台发布容器服务；
+        - 验证 Nginx 跳转与前端加载，配置防火墙策略；
+        - 维护容器镜像备份与版本脚本。
+
+    - title: 美的金融科技平台
+      detail: 
+        - 搭建测试环境与中间件系统(Redis Cluster, LVS, Zookeeper);
+        - 搭建docekr、kubernetes、高可用环境并完成压力测试和报告输出；
+        - 输出部署与运维手册，提升平台交付效率。
+
+
 - type: experience
   name: 工作经历
   content:
@@ -102,32 +130,6 @@ main: #简历主要内容，
     #可以设置open默认展开
 
 
-- type: projects
-  name: Projects
-  content:
-    - title: 省移动 NFV 二期项目
-      detail:
-        - 管理500+ Ceph 节点存储集群，执行硬件与软件验收、故障恢复测试；
-        - 与华为、中兴、移动工程师协作完成集群一致性验证与故障修复；
-        - 升级系统并编写修复报告，优化平台稳定性。
-
-    - title: 互联网金融服务V2.0 - 支付中心二期
-      detail: 
-        - 管理虚拟机用户与密码，编写发版与回滚方案；
-        - 处理平台漏洞与异常，完成发版验证流程。
-
-    - title: 运营资本域项目
-      detail: 
-        - 编写 Dockerfile 并通过 TSF 平台发布容器服务；
-        - 验证 Nginx 跳转与前端加载，配置防火墙策略；
-        - 维护容器镜像备份与版本脚本。
-
-    - title: 美的金融科技平台
-      detail: 
-        - 搭建测试环境与中间件系统(Redis Cluster, LVS, Zookeeper);
-        - 搭建docekr、kubernetes、高可用环境并完成压力测试和报告输出；
-        - 输出部署与运维手册，提升平台交付效率。
-              
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
@@ -155,11 +157,6 @@ others: #其他列表显示
     - 骑行
     - 马拉松越野
     - 书籍:人文、传记、历史
-    
-  - title: "特别说明"
-    list: 
-    - Blog的域名还在备案中，暂时只能用IP登陆
-    
   # - title: 列表
   #   list:
   #   - 第一项
@@ -178,3 +175,66 @@ footer: #脚注多组
   #   href: '/'
   - text: "Made with &hearts; by TOM"
     href: "https://yogatom.github.io/resume/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
+
+
+#others 其他简略内容(列表)
+- type: others #ID可以为空
+  name: '自我简介'
+  content: #选择需要的格式
+
+  - title: "近期工作成果"
+    list:
+    - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失;
+    - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估;
+    - 搭建 Prometheus + Shell 自动检测系统，确保运行状态健康;
+    - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力;
+    - 推动任务自动化与流程标准化，减少人为失误和等待时间;
+    - 搭建新项目所需测试环境，如docker、kubernetes、redis集群和lvs等中间件，并进行压力测试和报告输出
+    
+  - title: "工作思维"
+    list:
+    - 逻辑严谨，熟悉系统与中间件原理，善于深入底层分析。
+    - 英文阅读能力强，能快速理解官方文档并实施。
+    - 善用多种渠道（博客、论坛、书籍）快速学习提升。
+    - 重视自动化、脚本化运维体系建设，持续优化流程效率。
+
+  - title: "日常生活"
+    list: #单行列表
+    - 烹饪
+    - 骑行
+    - 马拉松越野
+    - 书籍:人文、传记、历史
+
+    - title: "特别说明"
+    list: #单行列表
+    - Blog的域名还在备案中，暂时只能用IP登陆
+ 
+
+  # - title: 列表
+  #   list:
+  #   - 第一项
+  #   - 第二项
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  # - text: "简历脚注"
+  #   href: '/'
+  - text: "Made with &hearts; by TOM"
+    href: "https://yogatom.github.io/resume/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
