@@ -5,6 +5,8 @@ title: resume optimized
 lang: zh
 name: 唐勇
 jobtitle: 运维工程师 / DevOps
+photo: "assets/img/avatar.png" #照片可空，不显示
+
 contact:
   - text: yogatom@163.com
     href: mailto:yogatom@163.com
@@ -122,11 +124,11 @@ main:
     content:
       - title: 工作成果
         list:
-          - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失。
-          - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估。
-          - 搭建 Prometheus + Shell 自动检测系统，确保运行状态健康。
-          - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力。
-          - 推动任务自动化与流程标准化，减少人为失误和等待时间。
+          - 构建日志自动转存系统，自动识别未转存历史日志，防止日志丢失;
+          - 编写自动收集 logs 与中间件版本的 Python 工具，输出表格辅助升级评估;
+          - 搭建 Prometheus + Shell 自动检测系统，确保运行状态健康;
+          - 优化容器镜像清理逻辑，保留最新 3 个版本，降低容量压力;
+          - 推动任务自动化与流程标准化，减少人为失误和等待时间;
       - title: 工作思维
         list:
           - 逻辑严谨，熟悉系统与中间件原理，善于深入底层分析。
@@ -136,17 +138,11 @@ main:
       - title: 兴趣爱好
         list: [烹饪, 骑行, 马拉松越野, 阅读（人文、传记、历史）]
 
-  - type: certification
-    name: 证书与培训
-    content:
-      - RHCE 红帽认证工程师（如有）
-      - Kubernetes CKA / CKS（如已考）
-      - 腾讯云/华为云 DevOps 工程师（建议加分项）
-
 footer:
   screen:
     - text: Made with ♥ by TOM
       href: https://yogatom.github.io/resume/
+
 
 
 #页面额外js脚本，如xx统计
