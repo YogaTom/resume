@@ -60,28 +60,28 @@ main: #简历主要内容，
   content:
     - title: China Mobile NFV Phase II
       detail:
-        - Managed 500+ Ceph nodes, hardware/software checks, tested system recovery；   
-        - Worked with Huawei and ZTE engineers to fix problems； 
-        - upgraded and kept the storage cluster system health   
+        - Managed 500+ Ceph nodes, hardware/software checks, tested system recovery;     
+        - Worked with Huawei and ZTE engineers to fix problems;   
+        - upgraded and kept the storage cluster system health;    
 
     - title: Fintech Payment System V2.0
       detail:   
         - Managed virtual machine users and passwords;   
-        - Wrote release and rollback plans, confirmed applicatio;    
-        - fixed system bugs
+        - Wrote release and rollback plans, confirmed applicatio;   
+        - fixed system bugs;   
 
     - title: Capital Operation System
       detail: 
-        - Wrote Dockerfiles and deployed services using TSF platform;   
-        - Set up firewall and Nginx, made release and image backup scripts  
+        - Wrote Dockerfiles and deployed services using TSF platform;     
+        - Set up firewall and Nginx, made release and image backup scripts;   
 
     - title: Midea Financial Technology Platform
       detail:  
         - Built testing VMs in Cloud platform, deployed middleware like Redis Cluster, LVS, Nginx, Zookeeper, etc;   
         - Set up Docker and Kubernetes clusters, built test images;   
-        - Wrote test cases for KVM and VMware platform, exported test reports;   
-        - Wrote Shell&Pthon scripts for log backups, health checks, info collection, images clean,  Checking and scheduling applications restart;    
-        - Accoding to the instructions, Worte kinds of scripts 
+        - Wrote test cases for KVM and VMware platform, exported test reports;     
+        - Wrote Shell&Pthon scripts for log backups, health checks, info collection, images clean,  Checking and scheduling applications restart;   
+        - Accoding to the instructions, Worte kinds of scripts;   
 
 - type: experience
   name: Work Experience
@@ -95,7 +95,7 @@ main: #简历主要内容，
       - Wrote Shell scripts to save logs automatically and avoid losing old logs;   
       - Wrote Python tools to collect logs and version info, and exported to Excel;   
       - Made Shell scripts associate with Prometheus to check system health, guaranteed the systems are stable;    
-      - Improved image clean-up: kept only 3 latest images to save space;   
+      - Improved image clean-up, kept only 3 latest images to save space;   
       - Automated many tasks to reduce mistakes and save time;     
       - Built KVM and VMware environments for pressure testing;     
 
@@ -105,9 +105,9 @@ main: #简历主要内容，
     tags: [Docker, Kubernetes, Java App]
     summary: Application Platform Operation
     detail:  
-      - Managed system setup and version releases for business apps
-      - Deployed middleware, fixed service and container problems
-      - Wrote rollback plans and made sure services started correctly
+      - Managed system setup and version releases for business apps;   
+      - Deployed middleware, fixed service and container problems;   
+      - Wrote rollback plans and made sure services started correctly;   
 
   - title: Guangzhou Xinmao Information Technology Co., Ltd.
     sub: Distributed Storage Engineer
@@ -117,16 +117,16 @@ main: #简历主要内容，
     detail:  
       - Managed Ceph storage with 500+ nodes for China Mobile;   
       - Did system checks, hardware replacements, patch updates;   
-      - Wrote technology documents and helped with customer communication; 
+      - Wrote technology documents and helped with customer communication;   
             
   - title: Beijing Changyuan Zhiyang Technology Co., Ltd.
     sub: After-sales Engineer
     duration: Jun 2016 - Sep 2020
-    tags: [存储]
+    tags: [Storage]
     summary: Hardware Operation Support
     detail:   
-      - Maintained storage hardware in telecom, mobile and bank data centers
-      - Upgraded firmware and fixed hardware like disks, power and controller
+      - Maintained storage hardware in telecom, mobile and bank data centers;   
+      - Upgraded firmware and fixed hardware like disks, power and controller;   
     # open: open
     #可以设置open默认展开
 
