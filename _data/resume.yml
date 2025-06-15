@@ -60,44 +60,44 @@ main: #简历主要内容，
   content:
     - title: China Mobile NFV Phase II
       detail:
-        - Managed 500+ Ceph nodes, hardware/software checks, tested system recovery ;
-        - Worked with Huawei and ZTE engineers to fix problems ;  
-        - Upgraded and kept the storage cluster system health. 
+        - Managed 500+ Ceph nodes, did hardware/software checks, and tested system recovery ;
+        - Worked with Huawei and ZTE engineers to fix problems ;
+        - Upgraded the system and kept the storage cluster healthy.
 
     - title: Fintech Payment System V2.0
       detail:   
         - Managed virtual machine users and passwords ;   
-        - Wrote release and rollback plans, confirmed applicatio ;   
+        - Wrote release and rollback plans, confirmed application upgrades ;   
         - Fixed system bugs.  
 
     - title: Capital Operation System
       detail: 
-        - Wrote Dockerfiles and deployed services using TSF platform ;     
-        - Set up firewall and Nginx, made release and image backup scripts.  
+        - Wrote Dockerfiles and deployed services using the TSF platform ;  
+        - Set up firewall rules and Nginx; created scripts for releases and image backups.
 
     - title: Midea Financial Technology Platform
       detail:  
-        - Built testing VMs in Cloud platform, deployed middleware like Redis Cluster, LVS, Nginx, Zookeeper, etc ;
-        - Set up Docker and Kubernetes clusters, built test images ;   
-        - Wrote test cases for KVM and VMware platform, exported test reports ;     
-        - Wrote Shell&Pthon scripts for log backups, health checks, info collection, images clean,  Checking and scheduling applications restart ;   
-        - Accoding to the instructions, Worte kinds of scripts.
+        - Built testing VMs in Cloud platform, and deployed middleware like Redis Cluster, LVS, Nginx, Zookeeper, etc ;
+        - Set up Docker and Kubernetes clusters, and built test images ;   
+        - Wrote test cases for KVM and VMware platforms, and exported test reports ;     
+        - Wrote Shell and Python scripts for log backups, health checks, data collection, images cleanup, Checking and scheduling applications restart ;   
+        - Wrote various scripts based on instructions.
 
-- type: experience
+- type: Work Experience
   name: Work Experience
   content:
   - title: Yida Information Technology Co., Ltd
     sub: DevOps Engineer
     duration: Mar 2024 - Now
     tags: [Python, Shell, Docker, Kubernetes] 
-    summary: Automation and Platform building
-    detail: 
-      - Wrote Shell scripts to save logs automatically and avoid losing old logs ;   
-      - Wrote Python tools to collect logs and version info, and exported to Excel ;   
-      - Made Shell scripts associate with Prometheus to check system health, guaranteed the systems are stable ;    
-      - Improved image clean-up, kept only 3 latest images to save space ;   
-      - Automated many tasks to reduce mistakes and save time ;     
-      - Built KVM and VMware environments for pressure testing.   
+    summary: Automation and Platform Building 
+    detail:  
+      - Wrote Shell scripts to save logs automatically and prevent loss of old logs
+      - Created Python tools to collect logs and version info, and exported them to Excel
+      - Wrote Shell scripts and integrated with Prometheus to monitor system health
+      - Improved image cleanup, keeping only the latest 3 versions to save storage space
+      - Automated tasks to reduce mistakes and save time
+      - Built KVM and VMware environments for performance testing
 
   - title: Runjian Co., Ltd.
     sub: Application Operations Engineer
