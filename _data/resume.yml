@@ -61,23 +61,29 @@ main: #简历主要内容，
     - title: China Mobile NFV Phase II
       detail:
         - Managed 500+ Ceph nodes, hardware/software checks, tested system recovery;     
+
         - Worked with Huawei and ZTE engineers to fix problems;  
+
         - upgraded and kept the storage cluster system health;  
 
     - title: Fintech Payment System V2.0
       detail:   
         - Managed virtual machine users and passwords;   
+
         - Wrote release and rollback plans, confirmed applicatio;   
+
         - fixed system bugs;   
 
     - title: Capital Operation System
       detail: 
         - Wrote Dockerfiles and deployed services using TSF platform;     
+
         - Set up firewall and Nginx, made release and image backup scripts;   
 
     - title: Midea Financial Technology Platform
       detail:  
-        - Built testing VMs in Cloud platform, deployed middleware like Redis Cluster, LVS, Nginx, Zookeeper, etc;     
+        - Built testing VMs in Cloud platform, deployed middleware like Redis Cluster, LVS, Nginx, Zookeeper, etc;
+ 
         - Set up Docker and Kubernetes clusters, built test images;   
         - Wrote test cases for KVM and VMware platform, exported test reports;     
         - Wrote Shell&Pthon scripts for log backups, health checks, info collection, images clean,  Checking and scheduling applications restart;   
