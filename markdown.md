@@ -1,10 +1,10 @@
 ---
 layout: markdown
 title: ''
-lang: 'en'
+lang: 'ch'
 photo: 'assets/img/photo.jpg'
 contact:
-  email: 'a@a.com'
+  email: 'yogatom@163.com'
   phone: '123456789'
   web: ''
   location: ''
