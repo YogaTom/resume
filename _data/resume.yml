@@ -99,7 +99,7 @@ main: #简历主要内容，
       - Improved image cleanup, keeping only the latest 3 versions to save storage space ;
       - Automated tasks to reduce mistakes and save time ;
       - Built KVM and VMware environments for performance testing.
-      md:./_data/demo.md
+      md:_data/demo.md
   - title: Runjian Co., Ltd.
     sub: Application Operations Engineer
     duration: Aug 2022 - Mar 2024
