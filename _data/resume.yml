@@ -63,7 +63,7 @@ main: #简历主要内容，
         - Managed 500+ Ceph nodes, did hardware/software checks, and tested system recovery ;
         - Worked with Huawei and ZTE engineers to fix problems ;
         - Upgraded the system and kept the storage cluster healthy.
-
+        
     - title: Fintech Payment System V2.0
       detail:   
         - Managed virtual machine users and passwords ;   
@@ -82,6 +82,7 @@ main: #简历主要内容，
         - Wrote test cases for KVM and VMware platforms, and exported test reports ;     
         - Wrote Shell and Python scripts for log backups, health checks, data collection, images cleanup, Checking and scheduling applications restart ;   
         - Wrote various scripts based on instructions.
+        
 
 - type: Work Experience
   name: Work Experience
@@ -98,7 +99,7 @@ main: #简历主要内容，
       - Improved image cleanup, keeping only the latest 3 versions to save storage space ;
       - Automated tasks to reduce mistakes and save time ;
       - Built KVM and VMware environments for performance testing.
-
+      md:./_data/demo.md
   - title: Runjian Co., Ltd.
     sub: Application Operations Engineer
     duration: Aug 2022 - Mar 2024
