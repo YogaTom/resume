@@ -93,28 +93,28 @@ main: #简历主要内容，
     detail: 
       md: _data/changyuan-job.md
 
-  - type: projects
-    name: Projects
-    content:
-    - title: 美的金融科技独立项目
-      duration: 
-      detail: 
-        md: _data/midea.md
-    
-    - title: 互联网金融服务V2.0--支付中心二期项目
-      duration: 
-      detail: 
-        md: _data/payment.md
-    
-    - title: 运营资本域项目
-      duration: 
-      detail: 
-        md: _data/operation.md
-    
-    - title: 省移动NFV二期项目
-      duration: 
-      detail: 
-        md: _data/mobile.md
+- type: projects
+  name: 项目经历
+  content:
+  - title: 美的金融科技独立项目
+    duration: 
+    detail: 
+      md: _data/midea.md
+  
+  - title: 互联网金融服务V2.0--支付中心二期项目
+    duration: 
+    detail: 
+      md: _data/payment.md
+  
+  - title: 运营资本域项目
+    duration: 
+    detail: 
+      md: _data/operation.md
+  
+  - title: 省移动NFV二期项目
+    duration: 
+    detail: 
+      md: _data/mobile.md
 
 others: #其他列表显示
 - type: others
