@@ -1,6 +1,3 @@
-# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
-# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
-
 title: "resume online"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "唐勇"
@@ -54,6 +51,7 @@ main: #简历主要内容，
       items: [English B1|B2]
              
 - type: experience
+  name: 工作经历
   content:
   - title: 亿达信息技术有限公司
     sub:  DevOps
@@ -64,8 +62,9 @@ main: #简历主要内容，
     - docker
     - middleware
     summary: Automation
-    detail: 负责美的集团下的金融系统和金融科技项目，日常运维工作包括系统监控、故障处理、性能优化、自动化脚本编写等。
-            金融科技从金融系统独立后，规划和测试环境，制定测试方案，生成测试报告。
+    detail: 
+      md: _data/yida-work.md 
+
   - title: 润建股份有限公司
     sub: 应用运维工程师
     duration: "2022年8月-2024年3月"
@@ -73,8 +72,8 @@ main: #简历主要内容，
     - docker
     - kubernetes
     summary: Java Application
-    detail: 互联网金融服务V2.0支付中心和运营资本域项目的运维工作;
-            日常运维、中间件搭建，故障处理、版本发布、回退、验证服务;
+    detail: 
+      md: _data/runjian-work.md
 
   - title: 广州欣茂信息科技有限公司
     sub: 分布式存储运维工程师   
@@ -82,8 +81,8 @@ main: #简历主要内容，
     tags: 
     - Ceph
     summary: 分布式存储
-    detail: 负责广东省移动5GC二期、三期的浪潮ceph存储，日常运维工作包括系统监控、软硬件故障处理、firmware升级; 
-            参与与移动客户的会议沟通、方案编写和故障案例编写；
+    detail: 
+      md: _data/xinmao-work.md
           
 
   - title: 北京长远智扬科技有限公司
@@ -92,9 +91,8 @@ main: #简历主要内容，
     tags:
     - 存储
     summary: 硬件运维
-    detail: 日立存储的ISP公司，负责广东省内三大运行商（电信、移动、联通）、各银行、证券等大中小企业的售后维护、微码升级等工作；
-            在客户IDC现场分析和解决各类软硬件问题；
-
+    detail: 
+      md: _data/changyuan-work.md
 
 - type: projects
   name: Projects
@@ -102,29 +100,24 @@ main: #简历主要内容，
   - title: 美的金融科技
     duration: 
     detail: 
-      md: _data/yida.md
+      md: _data/midea.md
 
 
   - title: 省移动NFV二期项目
     duration: 
-    detail: 分布式存储硬集、软集和验收，单盘故障、单节点故障、单机柜故障，收集三种故障影响和恢复时长；
-            项目涉及500多台基于ceph存储节点，应用层对接中兴和华为服务，与厂商的工程师一起进行硬件集、软件集、验收；
-            界面巡检和机房巡查，磁盘、电源、主板等硬件修复，底层副本数据不同步修复；
-            周期性的系统升级，修复已知bug，提升系统稳定性和性能；
+    detail: 
+      md: _data/mobile.md
   
   - title: 互联网金融服务V2.0--支付中心二期项目
     duration: 
-    detail: 重新启动的项目，涉及虚拟机密码重置、账号新建，台账更新维护、各服务运行状态、可用性、安全性；
-            月度发版、排查故障、修复漏洞、验证服务等；
-            编写版本发布和回退方案，并在南方ios平台申请作业，版本发布完成后，验证服务启动和业务正常。
+    detail: 
+      md: _data/payment.md
    
   - title: 运营资本域项目
     duration: 
-    detail: 服务器申请，资源验证，防火墙策略变更；
-            dokerfile编写，tsf平台实例创建，打包和发布；
-            搭建和配置nginx，验证前端页面跳转和显示正常；
-            容器镜像备份，镜像脚本维护；
-            
+    detail: 
+      md: _data/operation.md
+
 
 others: #其他列表显示
 - type: others #ID可以为空
@@ -166,8 +159,3 @@ footer: #脚注多组
   #   href: '/'
   - text: "Made with &hearts; by TOM"
     href: "https://yogatom.github.io/resume/"
-
-#页面额外js脚本，如xx统计
-scripts:
-#- src: "assets/js/resume.js"
-#  defer: defer #可以设置defer或者sync异步加载
