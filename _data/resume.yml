@@ -84,7 +84,6 @@ main: #简历主要内容，
     detail: 
       md: _data/xinmao-job.md
           
-
   - title: 北京长远智扬科技有限公司
     sub: 售后工程师
     duration: "2016年6月 - 2020年9月"
@@ -94,31 +93,30 @@ main: #简历主要内容，
     detail: 
       md: _data/changyuan-job.md
 
-- type: projects
-  name: Projects
-  content:
-  - title: 美的金融科技独立项目
-    duration: 
-    detail: 
-      md: _data/midea.md
+  - type: projects
+    name: Projects
+    content:
+    - title: 美的金融科技独立项目
+      duration: 
+      detail: 
+        md: _data/midea.md
+    
+    - title: 互联网金融服务V2.0--支付中心二期项目
+      duration: 
+      detail: 
+        md: _data/payment.md
+    
+    - title: 运营资本域项目
+      duration: 
+      detail: 
+        md: _data/operation.md
+    
+    - title: 省移动NFV二期项目
+      duration: 
+      detail: 
+        md: _data/mobile.md
 
-
-  - title: 省移动NFV二期项目
-    duration: 
-    detail: 
-      md: _data/mobile.md
-  
-  - title: 互联网金融服务V2.0--支付中心二期项目
-    duration: 
-    detail: 
-      md: _data/payment.md
-   
-  - title: 运营资本域项目
-    duration: 
-    detail: 
-      md: _data/operation.md
-
-
+others: #其他列表显示
 - type: others
   name: 自我简介
   content:
