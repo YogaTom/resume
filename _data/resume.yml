@@ -63,7 +63,7 @@ main: #简历主要内容，
     - middleware
     summary: Automation
     detail: 
-      md: _data/yida-work.md 
+      md: _data/yida-job.md 
 
   - title: 润建股份有限公司
     sub: 应用运维工程师
@@ -73,7 +73,7 @@ main: #简历主要内容，
     - kubernetes
     summary: Java Application
     detail: 
-      md: _data/runjian-work.md
+      md: _data/runjian-job.md
 
   - title: 广州欣茂信息科技有限公司
     sub: 分布式存储运维工程师   
@@ -82,7 +82,7 @@ main: #简历主要内容，
     - Ceph
     summary: 分布式存储
     detail: 
-      md: _data/xinmao-work.md
+      md: _data/xinmao-job.md
           
 
   - title: 北京长远智扬科技有限公司
@@ -92,7 +92,7 @@ main: #简历主要内容，
     - 存储
     summary: 硬件运维
     detail: 
-      md: _data/changyuan-work.md
+      md: _data/changyuan-job.md
 
 - type: projects
   name: Projects
@@ -159,3 +159,8 @@ footer: #脚注多组
   #   href: '/'
   - text: "Made with &hearts; by TOM"
     href: "https://yogatom.github.io/resume/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
