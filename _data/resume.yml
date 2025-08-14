@@ -93,12 +93,7 @@ main: #简历主要内容，
     tags: [Python, Shell, Docker, Kubernetes] 
     summary: Automation and Platform Building 
     detail:  
-      - Wrote Shell scripts to save logs automatically and prevent loss of old logs ;
-      - Created Python tools to collect logs and version info, and exported them to Excel ;
-      - Wrote Shell scripts and integrated with Prometheus to monitor system health ;
-      - Improved image cleanup, keeping only the latest 3 versions to save storage space ;
-      - Automated tasks to reduce mistakes and save time ;
-      - Built KVM and VMware environments for performance testing.
+      md: _data/demo.md
     
   - title: Runjian Co., Ltd.
     sub: Application Operations Engineer
